@@ -164,7 +164,34 @@
         </a>
       </div>
       {% endif %}
-      </section>
+      
+      {% if button_html %}
+        <div class="skills__project project">
+          <img class="project__img"
+            src="../static/img/html-project.png"
+            width="500">
+
+        <a class="project__link"
+          href="https://github.com/enzofxlipe0/gerador_de_meme.git"
+          target="_blank">
+          Abrir no GitHub
+        </a>
+      </div>
+      {% endif %}
+
+      {% if button_db %}
+        <div class="skills__project project">
+          <img class="project__img"
+            src="../static/img/db-project.png"
+            width="500">
+
+        <a class="project__link"
+          href="https://github.com/enzofxlipe0/diario.git"
+          target="_blank">
+          Abrir no GitHub
+        </a>
+      </div>
+      {% endif %}
 
       <!-- Formulário de feedback -->
       <section class="main__feedback feedback" id="feedback">
